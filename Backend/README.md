@@ -121,7 +121,7 @@ Backend Development Roadmap
 - [ ] [GraphQL]()
   + [ ] [Apollo]()
   + [ ] [Relay Modern]()
-- [ ] [그래프 데이터베이스]
+- [ ] [그래프 데이터베이스]()
   + [ ] [Neo4j]()
 - [ ] [웹 소켓]()
 - [ ] [웹 서버]()
