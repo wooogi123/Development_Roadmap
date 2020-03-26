@@ -36,8 +36,8 @@ Backend Development Roadmap
   + [ ] [Git 기본 사용법]()
 - [ ] [저장소 호스팅 서비스]()
   + [ ] [Github]()
-  + ~~[ ] [Gitlab]()~~
-  + ~~[ ] [Bitbucket]()~~
+  + [ ] ~~[Gitlab]()~~
+  + [ ] ~~[Bitbucket]()~~
 - [ ] [관계형 데이터베이스]()
   + [ ] [PostgreSQL]()
   + [ ] [MySql]()
