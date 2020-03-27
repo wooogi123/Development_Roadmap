@@ -58,3 +58,6 @@
 - 이러한 컴퓨터 중 일부 컴퓨터(**웹 서버**)는 웹 브라우저가 이해할 수 있는 메세지를 보낼 수 있습니다.
 - 즉, **Internet**은 인프라이며, **Web**은 인프라를 기반으로 구축된 서비스입니다.
 - 웹 뿐만 아니라, 인터넷을 기반으로 구축된 몇 가지 다른 서비스들 (이메일 및 IRC 등등)도 있습니다.
+
+### Reference
+  [How does the Internet work?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work)
