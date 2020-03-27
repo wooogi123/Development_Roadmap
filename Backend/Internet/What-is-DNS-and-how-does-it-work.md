@@ -1,4 +1,4 @@
-##DNS와 동작 원리
+## DNS와 동작 원리
 
 **What is DNS? (DNS는 무엇인가요?)**
 - **DNS(Domain Name System)**는 인터넷의 전화번호부 입니다.
