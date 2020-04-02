@@ -1,11 +1,11 @@
 Frontend Development Roadmap
 ---------------------------
 
-- [ ] [인터넷]()
-  + [ ] [인터넷은 어떻게 작동될까요?]()
+- [ ] [인터넷](https://github.com/wooogi123/Development_Roadmap/tree/master/Backend/Internet)
+  + [x] [인터넷은 어떻게 작동될까요?](https://github.com/wooogi123/Development_Roadmap/blob/master/Backend/Internet/How-does-the-Internet-work.md)
   + [ ] [HTTP는 무엇일까요?]()
   + [ ] [브라우저와 동작 원리]()
-  + [ ] [DNS와 동작 원리]()
+  + [x] [DNS와 동작 원리](https://github.com/wooogi123/Development_Roadmap/blob/master/Backend/Internet/What-is-DNS-and-how-does-it-work.md)
   + [ ] [도메인 네임은 무엇일까요?]()
   + [ ] [호스팅은 무엇일까요?]()
 - [ ] [HTML]()
