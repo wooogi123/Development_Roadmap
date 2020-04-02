@@ -36,15 +36,15 @@
 - **Recursive resolver**는 클라이언트의 재귀적 요청으로부터 응답하고 DNS 레코드를 추적하는데 시간이 걸리는 컴퓨터입니다.
 - 요청된 레코드에 대한 Authoritative DNS 네임서버에 도착할때까지 (또는 시간초과나 레코드를 찾을 수 없어서 오류를 반환할 때 까지) 연속적인 요청을 함으로써 작업을 수행합니다.
 - 운 좋게도, **Recursive DNS resolver**는 클라이언트에 응답하는데 필요한 레코드를 추적하기 위해 항상 여러번의 요청을 할 필요는 없습니다; 캐싱은 DNS lookup 초기에 요청된 자원 레코드를 제공하여 필요한 요청을 짧게 끝내는데 도움을 주는 지속적인 프로세스입니다.
-  ![What-is-dns-and-how-does-it-work-1](https://github.com/wooogi123/Development_Roadmap/blob/master/Backend/Internet/images/What-is-dns-and-how-does-it-work-1.png)
+  ![What-is-dns-and-how-does-it-work-1](https://github.com/wooogi123/Development_Roadmap/blob/master/docs/Internet/images/What-is-dns-and-how-does-it-work-1.png)
   
 **Authoritative DNS server**
 - 간단히 말해서, Authoritative DNS 서버는 실제 DNS 자원 레코드를 보유하며, 이를 담당하는 서버입니다.
 - 이것은 DNS lookup 순서의 하단에 있는 서버로 쿼리된 자원 레코드로 응답하고, 궁극적으로 웹 브라우저가 웹사이트나 웹 자원에 접근하는데 필요한 IP 주소에 요청을 보낼 수 있게 합니다.
 - Authoritative nameserver는 특정 DNS 레코드의 최종적인 근원이기 때문에 다른 서버에 쿼리를 보낼 필요 없이 가지고 있는 데이터에서 쿼리를 충족시킬 수 있습니다.
-  ![What-is-dns-and-how-does-it-work-2](https://github.com/wooogi123/Development_Roadmap/blob/master/Backend/Internet/images/What-is-dns-and-how-does-it-work-2.png)
+  ![What-is-dns-and-how-does-it-work-2](https://github.com/wooogi123/Development_Roadmap/blob/master/docs/Internet/images/What-is-dns-and-how-does-it-work-2.png)
 - 쿼리가 foo.example.com이나 blog.cloudflare.com과 같은 서브도메인에 대한 경우, Authoritative nameserver 다음에 추가적인 네임서버가 더해져 서브도메인의 CNAME 레코드를 저장을 담당합니다.
-  ![What-is-dns-and-how-does-it-work-3](https://github.com/wooogi123/Development_Roadmap/blob/master/Backend/Internet/images/What-is-dns-and-how-does-it-work-3.png)
+  ![What-is-dns-and-how-does-it-work-3](https://github.com/wooogi123/Development_Roadmap/blob/master/docs/Internet/images/What-is-dns-and-how-does-it-work-3.png)
   
 **What are the steps in a DNS lookup?**
 - 대부분의 경우, DNS는 도메인 네임이 적절한 IP 주소로 변환되는 것과 관련이 있습니다.
@@ -66,7 +66,7 @@
   DNS lookup이 example.com의 IP 주소를 반환하게 되면, 브라우저는 웹페이지에 요청을 보낼 수 있습니다.
 9. 브라우저는 IP 주소로 HTTP 요청을 보냅니다.
 10. 해당 IP의 서버는 브라우저에서 보여줄 웹페이지를 반환합니다.
-  ![What-is-dns-and-how-does-it-work-4](https://github.com/wooogi123/Development_Roadmap/blob/master/Backend/Internet/images/What-is-dns-and-how-does-it-work-4.png)
+  ![What-is-dns-and-how-does-it-work-4](https://github.com/wooogi123/Development_Roadmap/blob/master/docs/Internet/images/What-is-dns-and-how-does-it-work-4.png)
   
 **What is a DNS resolver?**
 - **DNS resolver**는 DNS lookup의 첫번째 정거장이며, 초기 요청을 만든 클라이언트의 처리를 담당합니다.
@@ -77,7 +77,7 @@
 - 재귀적인 DNS 쿼리와 Recursive DNS Resolver를 구별하는것이 중요합니다.
 - 쿼리는 쿼리의 해결을 필요로 하는 DNS resolver에 대한 요청을 나타냅니다.
 - DNS recursive resolver는 재귀적인 쿼리를 받아들이고 필요한 요청을 해서 응답을 처리하는 컴퓨터입니다.
-  ![What-is-dns-and-how-does-it-work-5](https://github.com/wooogi123/Development_Roadmap/blob/master/Backend/Internet/images/What-is-dns-and-how-does-it-work-5.png)
+  ![What-is-dns-and-how-does-it-work-5](https://github.com/wooogi123/Development_Roadmap/blob/master/docs/Internet/images/What-is-dns-and-how-does-it-work-5.png)
   
 **What are the types of DNS Queries?**
 - 일반적인 DNS lookup에서는 세 가지 유형의 쿼리가 발생합니다.
