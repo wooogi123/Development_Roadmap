@@ -17,3 +17,7 @@
 - 실제로는 브라우저와 요청을 처리하는 서버 사이에 많은 컴퓨터들이 존재합니다 - 라우터, 모뎀 등이 있습니다.
 - 웹의 계층적 설계 덕분에 이 컴퓨터들은 네트워크와 전송 계층 안으로 숨겨집니다.
 - **HTTP**는 애플리케이션 계층의 최상위에 있습니다.
+
+
+### Reference
+  [What is HTTP?](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
