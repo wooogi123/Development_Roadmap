@@ -1,7 +1,7 @@
 ## HTTP는 무엇일까요?
 
 **Summary (요약)**
-- **HTTP (HyperText Transfer Protocol)**은 웹상에서 HTML 문서와 같은 정보를 주고받을 수 있는 프로토콜입니다.
+- **HTTP (HyperText Transfer Protocol)** 은 웹상에서 HTML 문서와 같은 정보를 주고받을 수 있는 프로토콜입니다.
 - 클라이언트와 서버 사이에서 이루어지는 요청/응답 (Request/Response) 프로토콜입니다.
 - 1990년대 초에 설계된 HTTP는 거듭하여 발전해온 확장 가능한 프로토콜입니다.
 - **HTTP**는 애플리케이션 계층의 프로토콜로, 신뢰 가능한 전송 프로토콜이라면 이론상 무엇이든 사용할 수 있으나 주로 TCP 또는 암호화된 TCP인 TLS를 통해 전송합니다.
