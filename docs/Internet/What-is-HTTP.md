@@ -13,7 +13,7 @@
 - User-Agent는 대부분의 경우 브라우저이지만, 크롤링 봇과 같이 무엇이던지 될 수 있습니다.
 - 각각의 요청들은 서버로 보내지며, 서버는 요청을 처리하고 **Response**라고 불리는 응답을 제공합니다.
 - 이 요청과 응답 사이에는 여러 개체들이 있는데, 예를 들어 다양한 작업을 수행하고 게이트웨이 또는 캐시 역할을 하는 **프록시** 등이 있습니다.
-  ![What-is-HTTP-1](https://github.com/wooogi123/Development_Roadmap/tree/master/docs/Internet/images/What-is-HTTP-1.png)
+  ![What-is-HTTP-1](https://github.com/wooogi123/Development_Roadmap/blob/master/docs/Internet/images/What-is-HTTP-1.png)
 - 실제로는 브라우저와 요청을 처리하는 서버 사이에 많은 컴퓨터들이 존재합니다 - 라우터, 모뎀 등이 있습니다.
 - 웹의 계층적 설계 덕분에 이 컴퓨터들은 네트워크와 전송 계층 안으로 숨겨집니다.
 - **HTTP**는 애플리케이션 계층의 최상위에 있습니다.
